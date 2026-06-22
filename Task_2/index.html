@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Gallery</h1>
+
+    <div class="filters">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="nature">Nature</button>
+        <button data-filter="aurora">Aurora</button>
+        <button data-filter="animals">Animals</button>
+    </div>
+
+    <div class="gallery">
+
+
+        <div class="card nature">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800" alt="">
+        </div>
+
+        <div class="card nature">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800" alt="">
+        </div>
+
+        <div class="card nature">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800" alt="">
+        </div>
+
+        <div class="card nature">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800" alt="">
+        </div>
+
+<div class="card aurora">
+    <img src="https://images.stockcake.com/public/7/7/8/7780a197-d82a-46de-9b64-dcbc17559ac4_large/aurora-over-water-stockcake.jpg" alt="Aurora Over Water">
+</div>
+
+<div class="card aurora">
+    <img src="https://png.pngtree.com/background/20250103/original/pngtree-colorful-northern-lights-aurora-borealis-on-night-sky-picture-image_15530296.jpg" alt="Colorful Aurora">
+</div>
+
+<div class="card aurora">
+    <img src="https://media.istockphoto.com/id/1935609059/photo/aurora-borealis-over-the-sea-snowy-mountains-at-starry-winter-night-northern-lights-in.jpg?s=612x612&w=0&k=20&c=A7ga3Hzo8RPy-zyLg4PKwLmLh2MoYMHHHjKJpYSFzmA=" alt="Aurora Mountains">
+</div>
+
+<div class="card aurora">
+    <img src="https://www.nhm.ac.uk/content/dam/nhm-www/discover/northern-lights/northern-lights-snowy-mountains-lake-full-width-shutterstock.jpg.thumb.1024.1024.png" alt="Aurora Lake">
+</div>
+             
+
+
+<div class="card animals">
+    <img src="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Cute Cat">
+</div>
+
+<div class="card animals">
+    <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Cute Dog">
+</div>
+
+<div class="card animals">
+    <img src="https://images.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Baby Elephant">
+</div>
+
+<div class="card animals">
+    <img src="https://images.pexels.com/photos/792381/pexels-photo-792381.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Baby Lion">
+</div>
+
+    </div>
+
+</div>
+
+<footer>
+
+    <div class="nav-item">
+        <i class="fa-solid fa-house"></i>
+        <span>Home</span>
+    </div>
+
+    <div class="nav-item active">
+        <i class="fa-regular fa-image"></i>
+        <span>Gallery</span>
+    </div>
+
+    <div class="nav-item">
+        <i class="fa-regular fa-heart"></i>
+        <span>Favorites</span>
+    </div>
+
+    <div class="nav-item">
+        <i class="fa-regular fa-user"></i>
+        <span>Profile</span>
+    </div>
+
+</footer>
+
+<div class="lightbox" id="lightbox">
+    <span class="close">&times;</span>
+
+    <button class="prev">&#10094;</button>
+
+    <img id="lightboxImg">
+
+    <button class="next">&#10095;</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
